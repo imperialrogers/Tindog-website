@@ -1,0 +1,178 @@
+body{
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", Montserrat;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+.descriptionh1{
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+ .navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+
+.nav-item{
+  padding: 0 16px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+/* Download Buttons */
+
+.dnb{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+  transform: rotate(25deg);
+  position: absolute;
+  width:20%;
+  right: 20%;
+}
+
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  position: relative;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color:#ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 995px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+
+/* Call To Action */
+
+#cta {
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.foot-des{
+  font-size: 3rem;
+  padding: 7% 20%;
+}
+#footer{
+  background-color: #fff;
+  margin: 100px 50px 70px;
+}
+
+/* Footer */
+
+.sm{
+  padding: 10px;
+  margin-bottom: 20px;
+}
